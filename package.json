@@ -1,6 +1,6 @@
 {
   "name": "vue3-quilljs",
-  "version": "0.0.23-0",
+  "version": "1.0.0",
   "main": "./lib/vue3-quilljs.umd.js",
   "module": "./lib/vue3-quilljs.es.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/alvinindra/vue3-quilljs.git"
   },
-  "author": "Alvin Indra",
+  "author": "alvinindra",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alvinindra/vue3-quilljs/issues"
