@@ -1,6 +1,6 @@
 # Vue 3 Quill Rich Text Editor
 
-Quill for Vue3
+This is Vue 3 Quill Rich Text editor created by 7uvss from https://7uvss.github.io/vue3-quill-editor/ and this package only add placeholder to the text editor
 
 ## Demo
 
