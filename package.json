@@ -1,6 +1,6 @@
 {
   "name": "vue3-quilljs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/vue3-quilljs.umd.js",
   "module": "./lib/vue3-quilljs.es.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "vite": "^2.3.4",
     "vue-tsc": "^0.0.24"
   },
-  "description": "This template should help get you started developing with Vue 3 and Typescript in Vite.",
+  "description": "This is Vue 3 Quill Rich Text editor created by 7uvss from https://7uvss.github.io/vue3-quill-editor/ and this package only add placeholder to the text editor.",
   "files": [
     "lib"
   ],
