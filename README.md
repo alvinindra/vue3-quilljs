@@ -9,7 +9,7 @@ https://7uvss.github.io/vue3-quill-editor/
 ## Install
 
 ```javascript
-npm i vue3-quill-editor
+npm i vue3-quilljs
 ```
 
 ## Usage
@@ -18,8 +18,8 @@ Global Registration:
 
 ```javascript
 // vue - main.js
-import Quill from "vue3-quill-editor";
-import "vue3-quill-editor/lib/style.css";
+import Quill from "vue3-quilljs";
+import "vue3-quilljs/lib/style.css";
 
 app.use(Quill);
 ```
@@ -30,6 +30,7 @@ In .vue:
 <template>
   <richTextEditor
     :toolBarConfig="toolBarConfig"
+    placeHolder="Write a text"
     v-model="rawHTML"
   ></richTextEditor>
 </template>
