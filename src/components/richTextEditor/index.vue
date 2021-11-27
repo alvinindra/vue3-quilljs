@@ -9,11 +9,15 @@
     props: {
       modelValue: String,
       placeHolder: String,
-      toolBarConfig: Array
+      toolBarConfig: Array,
+      theme: {
+        type: String,
+        default: 'snow'
+      }
     },
     emits: ['update:modelValue'],
     setup: (props, { emit }) => {
-      const { modelValue,toolBarConfig, placeHolder } = toRefs(props)
+      const { modelValue,toolBarConfig, placeHolder, theme } = toRefs(props)
       const editor = ref()
       const editorRef = ref()
       onMounted(() => {
@@ -22,7 +26,7 @@
             toolbar: toolBarConfig?.value
           },
           placeholder: placeHolder?.value,
-          theme: 'snow'
+          theme: theme?.value
         })
         editor.value.root.innerHTML = modelValue?.value
         editor?.value.on('text-change', () => {
