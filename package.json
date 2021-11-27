@@ -28,6 +28,12 @@
     "type": "git",
     "url": "git+https://github.com/alvinindra/vue3-quilljs.git"
   },
+  "keywords": [
+    "vue3",
+    "text-editor",
+    "quilljs",
+    "rich-text-editor"
+  ],
   "author": "alvinindra",
   "license": "ISC",
   "bugs": {
