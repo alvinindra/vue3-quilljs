@@ -1,6 +1,6 @@
 {
   "name": "vue3-quilljs",
-  "version": "1.0.11",
+  "version": "1.0.2",
   "main": "./lib/vue3-quilljs.umd.js",
   "module": "./lib/vue3-quilljs.es.js",
   "scripts": {
